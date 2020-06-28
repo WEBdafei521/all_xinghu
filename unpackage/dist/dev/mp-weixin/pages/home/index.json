@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-notice-bar": "/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "lp-input": "/components/common/LpInput"
+  }
+}

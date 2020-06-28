@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "广场",
+  "disableScroll": true,
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "lp-input": "/components/common/LpInput"
+  }
+}

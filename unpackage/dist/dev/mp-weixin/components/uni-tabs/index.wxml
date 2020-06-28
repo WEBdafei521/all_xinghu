@@ -1,0 +1,1 @@
+<view class="l-tabs data-v-77188484"><block wx:for="{{goodsTab}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['tabChange',[index]]]]]}}" class="l-list data-v-77188484" bindtap="__e"><view class="{{['l-item data-v-77188484',item.current==tabIndex?'l-active':'']}}">{{item.name}}</view></view></block></view>

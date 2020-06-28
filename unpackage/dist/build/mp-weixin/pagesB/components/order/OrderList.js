@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pagesB/components/order/OrderList"],{"2bb5":function(e,n,t){"use strict";t.r(n);var r=t("2e1a"),o=t("9470");for(var i in o)"default"!==i&&function(e){t.d(n,e,(function(){return o[e]}))}(i);t("8b08");var u,c=t("f0c5"),a=Object(c["a"])(o["default"],r["b"],r["c"],!1,null,"5411e62f",null,!1,r["a"],u);n["default"]=a.exports},"2e1a":function(e,n,t){"use strict";var r={uEmpty:function(){return Promise.all([t.e("common/vendor"),t.e("uview-ui/components/u-empty/u-empty")]).then(t.bind(null,"6d89"))}},o=function(){var e=this,n=e.$createElement,t=(e._self._c,e.__map(e.listData,(function(n,t){var r=n.extend_order_extend.receiver_phone.replace(/^(.{3})(.*)(.{4})$/,"$1-$2-$3"),o=e.addressInfo(n);return{$orig:e.__get_orig(n),g0:r,m0:o}})));e.$mp.data=Object.assign({},{$root:{l0:t}})},i=[];t.d(n,"b",(function(){return o})),t.d(n,"c",(function(){return i})),t.d(n,"a",(function(){return r}))},8894:function(e,n,t){},"8b08":function(e,n,t){"use strict";var r=t("8894"),o=t.n(r);o.a},9470:function(e,n,t){"use strict";t.r(n);var r=t("b667"),o=t.n(r);for(var i in r)"default"!==i&&function(e){t.d(n,e,(function(){return r[e]}))}(i);n["default"]=o.a},b667:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var r={props:{listData:{type:Array,default:function(){}}},data:function(){return{}},onReady:function(){},methods:{cancelOrder:function(e,n){this.$emit("cancelOrder",{index:e,id:n})},addressInfo:function(e){console.log(e);var n=e.extend_order_extend.reciver_info;return n.combine_detail+"  "+n.address},copy:function(e){this.$copy.set(e)},scroll:function(e){this.$emit("scrollPage",e)},shipments:function(e){this.$emit("goSendProduct",e)}}};n.default=r}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pagesB/components/order/OrderList-create-component',
+    {
+        'pagesB/components/order/OrderList-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("2bb5"))
+        })
+    },
+    [['pagesB/components/order/OrderList-create-component']]
+]);

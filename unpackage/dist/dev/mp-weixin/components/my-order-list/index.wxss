@@ -1,0 +1,239 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* uni.scss */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.l-my-order.data-v-d9e4f02a {
+  padding: 30rpx;
+}
+.l-my-order .l-my-order-list1.data-v-d9e4f02a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 300rpx;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.l-my-order .l-my-order-list1 .l-no.data-v-d9e4f02a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 371rpx;
+  height: 370rpx;
+}
+.l-my-order .l-my-order-list1 .l-no .images.data-v-d9e4f02a {
+  width: 371rpx;
+  height: 349rpx;
+}
+.l-my-order .l-my-order-list1 .l-no .l-text.data-v-d9e4f02a {
+  width: 100%;
+  text-align: center;
+  margin-top: 30rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: sample;
+  position: relative;
+  padding: 0 13rpx;
+  color: #999999;
+}
+.l-my-order .l-my-order-list .l-my-order-item.data-v-d9e4f02a {
+  background: white;
+  background: #ffffff;
+  border-radius: 16rpx;
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-my-order-title .l-left .images.data-v-d9e4f02a {
+  width: 43rpx;
+  height: 43rpx;
+  margin-right: 16rpx;
+  border-radius: 50%;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-my-order-title .l-left .l-text.data-v-d9e4f02a {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #282828;
+  margin-right: 10rpx;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-order-item-status.data-v-d9e4f02a {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: sample;
+  color: #d7ba76;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-product.data-v-d9e4f02a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  margin-top: 30rpx;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-product .l-product-image .images.data-v-d9e4f02a {
+  width: 227rpx;
+  height: 227rpx;
+  border-radius: 16rpx;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-product .l-product-info.data-v-d9e4f02a {
+  width: 60%;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: sample;
+  color: #999999;
+  margin-left: 20rpx;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-product .l-product-info .l-product-intro.data-v-d9e4f02a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-flow: nowrap;
+          flex-flow: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-product .l-product-info .l-product-intro .l-intro.data-v-d9e4f02a {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: sample;
+  color: #333333;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-product .l-product-info .l-product-intro .l-price .l-top.data-v-d9e4f02a {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: sample;
+  color: #333333;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-product .l-product-info .l-product-intro .l-price .l-bottom.data-v-d9e4f02a {
+  width: 100%;
+  text-align: right;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: sample;
+  color: #999999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-product .l-product-info .l-rule.data-v-d9e4f02a {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: sample;
+  color: #999999;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-product-sum.data-v-d9e4f02a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 10rpx;
+  margin-bottom: 10rpx;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-product-sum .l-sum.data-v-d9e4f02a, .l-my-order .l-my-order-list .l-my-order-item .l-product-sum .l-active.data-v-d9e4f02a {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: sample;
+  color: #333333;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-product-sum .l-price.data-v-d9e4f02a {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: sample;
+  color: #333333;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-settlement.data-v-d9e4f02a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-settlement .l-left.data-v-d9e4f02a {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: sample;
+  color: #b1b1b6;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-settlement .l-right.data-v-d9e4f02a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  text-align: center;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-settlement .l-right .l-yellow.data-v-d9e4f02a, .l-my-order .l-my-order-list .l-my-order-item .l-settlement .l-right .l-souhou.data-v-d9e4f02a, .l-my-order .l-my-order-list .l-my-order-item .l-settlement .l-right .l-wuliu.data-v-d9e4f02a {
+  width: 150rpx;
+  margin-left: 10rpx;
+  height: 50rpx;
+  line-height: 48rpx;
+  border: 1px solid #b1b1b6;
+  border-radius: 25rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  color: #b1b1b6;
+}
+.l-my-order .l-my-order-list .l-my-order-item .l-settlement .l-right .l-yellow.data-v-d9e4f02a {
+  background: #d7b975;
+  border: 1px solid #d7b975;
+  color: #ffffff;
+  border-radius: 25rpx;
+}
+

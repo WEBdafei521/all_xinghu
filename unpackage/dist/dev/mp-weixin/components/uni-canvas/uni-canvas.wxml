@@ -1,0 +1,1 @@
+<view><canvas style="width:507rpx;height:664rpx;" canvas-id="mycanvas" data-event-opts="{{[['longtap',[['saveImage',['$event']]]]]}}" bindlongtap="__e"></canvas></view>

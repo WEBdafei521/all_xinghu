@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,qO;AACAA,UAAU,CAACC,iBAAD,CAAV,C","file":"pagesB/pagesB/pages/createLive/editRoom.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pagesB/pagesB/pages/createLive/editRoom.vue'\ncreatePage(Page)"],"sourceRoot":""}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品管理",
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "search-input": "/pagesB/components/common/SeachInput"
+  }
+}

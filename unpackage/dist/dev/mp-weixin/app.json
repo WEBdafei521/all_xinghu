@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/home/liveHome/index",
+    "pages/home/readyLive/readyLive",
+    "pages/user/homePage/edit",
+    "pages/user/index",
+    "pages/square/backVideo/backVideo",
+    "pages/user/openService/index",
+    "pages/user/homePage/index",
+    "pages/user/setting/index",
+    "pages/user/auth/index",
+    "pages/user/returnMoney/index",
+    "pages/user/returnGoods/index",
+    "pages/user/orderdetail/index",
+    "pages/user/order/index",
+    "pages/user/replaceVisita/index",
+    "pages/user/address/index",
+    "pages/user/address/updata",
+    "pages/square/index",
+    "pages/VIP/index",
+    "pages/introduction/index",
+    "pages/user/evaluate/evaluate"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesB",
+      "pages": [
+        "pages/upload/upload",
+        "pages/control_goods/index",
+        "pages/upload/upload_rule",
+        "pages/order/index",
+        "pages/order/shipments/index",
+        "pages/order/shipments/courier",
+        "pages/wallet/index",
+        "pages/tradeRecord/index",
+        "pages/traffic/index",
+        "pages/traffic/record",
+        "pages/traffic/pay",
+        "pages/qrcode/qrcode",
+        "pages/genQrcode/genQrcode",
+        "pages/createLive/liveRoom",
+        "pages/createLive/editRoom",
+        "pages/webView/index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uView",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#656565",
+    "selectedColor": "#E2D3A9",
+    "borderStyle": "black",
+    "backgroundColor": "#16181C",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/index.png",
+        "selectedIconPath": "static/index_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/center.png",
+        "selectedIconPath": "static/center-selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

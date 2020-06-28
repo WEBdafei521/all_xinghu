@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "订单列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "search-input": "/pagesB/components/common/SeachInput",
+    "order-list": "/pagesB/components/order/OrderList",
+    "l-tabs": "/components/uni-tabs/index"
+  }
+}

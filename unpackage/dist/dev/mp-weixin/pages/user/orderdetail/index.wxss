@@ -1,0 +1,265 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* uni.scss */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.l-order-details.data-v-046a5c28 {
+  padding-bottom: 100rpx;
+}
+.l-order-details .l-trade-status.data-v-046a5c28 {
+  padding: 0 30rpx;
+  background-color: #FFFFFF;
+  margin-bottom: 20rpx;
+}
+.l-order-details .l-trade-status .l-status.data-v-046a5c28 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: sample;
+  color: #d7b975;
+  padding: 28rpx 0;
+  border-bottom: 2rpx solid #eeeeee;
+}
+.l-order-details .l-trade-status .l-trande.data-v-046a5c28 {
+  padding: 30rpx 0;
+  border-bottom: 2rpx solid #eeeeee;
+}
+.l-order-details .l-trade-status .l-trande .l-left .images.data-v-046a5c28 {
+  margin-left: 16rpx;
+  width: 33rpx;
+  height: 41rpx;
+}
+.l-order-details .l-trade-status .l-trande .l-right.data-v-046a5c28 {
+  margin-left: 16rpx;
+}
+.l-order-details .l-trade-status .l-trande .l-right .l-top.data-v-046a5c28 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #d7b975;
+  margin-bottom: 20rpx;
+}
+.l-order-details .l-trade-status .l-trande .l-right .l-top .images.data-v-046a5c28 {
+  margin-right: 16rpx;
+  width: 39rpx;
+  height: 30rpx;
+}
+.l-order-details .l-trade-status .l-trande .l-right .l-top .l-statuss.data-v-046a5c28 {
+  width: 80vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.l-order-details .l-trade-status .l-trande .l-right .aaa.data-v-046a5c28 {
+  color: #333333;
+}
+.l-order-details .l-trade-status .l-trande .l-right .l-bottom.data-v-046a5c28 {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #B1B1B6;
+}
+.l-order-details .l-product-info.data-v-046a5c28 {
+  background: #ffffff;
+  border-radius: 16rpx;
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+}
+.l-order-details .l-product-info .l-my-order-title .l-left .images.data-v-046a5c28 {
+  width: 43rpx;
+  height: 43rpx;
+  margin-right: 16rpx;
+  border-radius: 50%;
+}
+.l-order-details .l-product-info .l-my-order-title .l-left .l-text.data-v-046a5c28 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #282828;
+  margin-right: 10rpx;
+}
+.l-order-details .l-product-info .l-product.data-v-046a5c28 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  margin-top: 30rpx;
+}
+.l-order-details .l-product-info .l-product .l-product-image .images.data-v-046a5c28 {
+  width: 227rpx;
+  height: 227rpx;
+  border-radius: 16rpx;
+}
+.l-order-details .l-product-info .l-product .l-product-info1.data-v-046a5c28 {
+  position: relative;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: sample;
+  color: #999999;
+  margin-left: 20rpx;
+}
+.l-order-details .l-product-info .l-product .l-product-info1 .l-want-return.data-v-046a5c28 {
+  position: absolute;
+  width: 150rpx;
+  height: 50rpx;
+  border: 1px solid #b1b1b6;
+  border-radius: 25rpx;
+  text-align: center;
+  line-height: 50rpx;
+  bottom: 0;
+  right: 0;
+}
+.l-order-details .l-product-info .l-product .l-product-info1 .l-product-intro.data-v-046a5c28 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-flow: nowrap;
+          flex-flow: nowrap;
+}
+.l-order-details .l-product-info .l-product .l-product-info1 .l-product-intro .l-intro.data-v-046a5c28 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: sample;
+  color: #333333;
+}
+.l-order-details .l-product-info .l-product .l-product-info1 .l-product-intro .l-price .l-top.data-v-046a5c28 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: sample;
+  color: #333333;
+}
+.l-order-details .l-product-info .l-product .l-product-info1 .l-product-intro .l-price .l-bottom.data-v-046a5c28 {
+  width: 100%;
+  text-align: right;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: sample;
+  color: #999999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.l-order-details .l-product-info .l-product .l-product-info1 .l-rule.data-v-046a5c28 {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: sample;
+  color: #999999;
+}
+.l-order-details .l-product-info .l-sevent.data-v-046a5c28 {
+  width: 100%;
+  text-align: right;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  padding: 22rpx 0;
+  border-bottom: 2rpx solid #eeeeee;
+}
+.l-order-details .l-product-info .l-actual .l-top.data-v-046a5c28 {
+  padding: 20rpx 0;
+}
+.l-order-details .l-product-info .l-actual .l-top .l-top-price.data-v-046a5c28 {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #b1b1b6;
+}
+.l-order-details .l-product-info .l-actual .l-youhui.data-v-046a5c28 {
+  padding: 30rpx 0;
+}
+.l-order-details .l-product-info .l-actual .l-youhui .l-top-text.data-v-046a5c28 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+}
+.l-order-details .l-product-info .l-actual .l-youhui .l-top-price.data-v-046a5c28 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: sample;
+  color: #d7b975;
+}
+.l-order-details .l-order-info.data-v-046a5c28 {
+  padding: 20rpx 30rpx 0 30rpx;
+  margin-bottom: 40rpx;
+  background-color: #FFFFFF;
+}
+.l-order-details .l-order-info .l-top.data-v-046a5c28 {
+  border-bottom: 2rpx solid #eeeeee;
+}
+.l-order-details .l-order-info .l-top .l-top-left .l-left.data-v-046a5c28 {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #b1b1b6;
+  padding: 10rpx 0;
+}
+.l-order-details .l-order-info .l-top .l-top-left .l-right.data-v-046a5c28 {
+  width: 65rpx;
+  height: 33rpx;
+  text-align: center;
+  line-height: 33rpx;
+  border: 1px solidg #b1b1b6;
+  border-radius: 8rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #b1b1b6;
+}
+.l-order-details .l-order-info .l-bottom .l-left.data-v-046a5c28, .l-order-details .l-order-info .l-bottom .l-right.data-v-046a5c28 {
+  height: 120rpx;
+  width: 50%;
+  text-align: center;
+  padding: 30rpx;
+  line-height: 120rpx;
+  border-right: 2rpx solid #eeeeee;
+}
+.l-order-details .l-order-info .l-bottom .l-left .images.data-v-046a5c28, .l-order-details .l-order-info .l-bottom .l-right .images.data-v-046a5c28 {
+  width: 38rpx;
+  height: 38rpx;
+  margin-right: 16rpx;
+}
+.l-order-details .l-order-info .l-bottom .aaa.data-v-046a5c28 {
+  border: 0;
+}
+.l-position.data-v-046a5c28 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+}
+

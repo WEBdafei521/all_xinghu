@@ -1,0 +1,151 @@
+/* 颜色 */
+.bg-fff {
+	background-color: #fff;
+}
+.bg-b1 {
+	background-color: #b1b1b1 !important;
+}
+.bg-d3 {
+	background-color: #d3d3d3 !important;
+}
+
+.color_333 {
+	color: #333;
+}
+.color_666 {
+	color: #666;
+}
+.color_999 {
+	color: #999;
+}
+.color_b1 {
+	color: #B1B1B6;
+}
+
+/* 边距 */
+.mgbtm-20 {
+	margin-bottom: 20rpx;
+}
+.mgright-10 {
+	margin-right: 10rpx;
+}
+/* 内边距 */
+.pdBtween-20 {
+	padding: 0 20rpx;
+}
+
+/* star-container */
+.star-container {
+	position: relative;
+	background: #f8f8f8;
+}
+.container {
+	width: 100%;
+	height: 100%;
+}
+.full-scroll {
+	width: 100%;
+	height: 100%;
+}
+.scroll-container {
+	width: 100%;
+	height: 100%;
+	.scroll-tabs {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		left: 0;
+		z-index: 9;
+	}
+	.scroll-content {
+		height: 100%;
+		.scroll-swiper {
+			width: 100%;
+			height: 100%;
+			.scroll-views {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}
+
+/* 滚动区域 */
+.scroll-boxs {
+	width: 100%;
+	height: 100%;
+	padding-bottom: env(safe-area-inset-bottom);
+	box-sizing: border-box;
+	.scroll-content {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+/* 图片 */
+.avtar-imgs {
+	width: 50rpx;
+	height: 50rpx;
+	border-radius: 50%;
+}
+/* cell组件的value值 */
+.cell-value {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	&-text {
+		margin-right: 10rpx;
+	}
+}
+/* 标题 */
+.c-titles {
+	padding: 0 20rpx;
+	color: #333;
+	font-size: 30rpx;
+	font-weight:bold;
+	padding-bottom: 40rpx; 
+}
+/* 标题带跳转 */
+.title-between {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30rpx 20rpx;
+	font-size: 30rpx;
+	&-title {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-weight: bold;
+		.title-imgs {
+			margin-right: 20rpx;
+			width: 34rpx;
+			height: 34rpx;
+		}
+	}
+	&-right {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		color: #B1B1B6;
+		font-size: 24rpx;
+		color: #B1B1B6;
+		padding: 5rpx 12rpx;
+		.right-text {
+			padding-right: 6rpx;
+		}
+	}
+}
+
+
+/* 覆盖其tabs样式*/
+.vipLive-tabs {
+	padding-left: 30rpx;
+	.u-scroll-box {
+		.u-tab-item {
+			border-radius: 24rpx;
+			padding: 4rpx 20rpx;
+			margin-right: 10rpx;
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "攻略",
+  "usingComponents": {
+    "show-image": "/components/uni-canvas/uni-canvas"
+  }
+}

@@ -1,0 +1,248 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* uni.scss */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 尺寸大小 */
+/* 颜色 */
+/* 设置宽高 */
+/*  flex布局 */
+/* 上1像素边框 */
+/* 下 1像素边框 */
+/* 右 1像素边框 */
+/* 溢出隐藏... */
+/* 上下外边距 */
+/* 重置button样式 */
+/* 底部提交按钮 */
+/* 存在底部提交按钮 */
+/* 定义盒子 */
+.container-box.data-v-2e5afb04 {
+  width: 100%;
+  padding: 0 30rpx 20rpx;
+  box-sizing: border-box;
+}
+/* 内容盒子 */
+.content-box.data-v-2e5afb04 {
+  padding: 20rpx;
+}
+.goods-item-img.data-v-2e5afb04 {
+  padding: 16rpx 0;
+}
+.goods-item-img .goods-img.data-v-2e5afb04 {
+  width: 158rpx;
+  height: 158rpx;
+  border-radius: 16rpx;
+}
+.model-icon.data-v-2e5afb04 {
+  width: 64rpx;
+  height: 64rpx;
+  margin-bottom: 10rpx;
+}
+.scroll-container.data-v-2e5afb04 {
+  position: relative;
+  padding-top: 134rpx;
+  background: #f8f8f8;
+}
+.scroll-container .goods-lists.data-v-2e5afb04 {
+  padding-bottom: 0rpx;
+}
+.scroll-container .goods-item.data-v-2e5afb04 {
+  position: relative;
+  padding: 10rpx 30rpx;
+  margin-bottom: 20rpx;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.scroll-container .goods-item-img.data-v-2e5afb04 {
+  width: 190rpx;
+  height: 190rpx;
+}
+.scroll-container .goods-item-info.data-v-2e5afb04 {
+  padding: 10rpx 30rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 190rpx;
+  font-size: 28rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.scroll-container .goods-item-info .info-title.data-v-2e5afb04 {
+  width: 85%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.scroll-container .goods-item-info .info-price.data-v-2e5afb04 {
+  color: #D7B975;
+}
+.scroll-container .goods-item-info .info-rule.data-v-2e5afb04 {
+  width: 100%;
+  color: #B1B1B6;
+  font-size: 24rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.scroll-container .goods-item-info .info-rule .rule_text.data-v-2e5afb04:last-child {
+  padding-left: 30rpx;
+}
+.scroll-container .goods-item .good-model.data-v-2e5afb04 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 30rpx;
+}
+.scroll-container .goods-item .good-model .model-li.data-v-2e5afb04 {
+  width: 200rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+  font-size: 26rpx;
+}
+.scroll-container .goods-item .edit-icon.data-v-2e5afb04 {
+  position: absolute;
+  top: 30rpx;
+  right: 30rpx;
+  padding: 5rpx 10rpx;
+}
+.scroll-container .scroll-btns.data-v-2e5afb04 {
+  position: absolute;
+  bottom: 70rpx;
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 68rpx;
+}
+.scroll-container .scroll-btns .btns-button.data-v-2e5afb04 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border: 0;
+  height: 80rpx;
+  border-radius: 0;
+  background: #D7B975;
+  color: #fff;
+  font-size: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 230rpx;
+  border-radius: 40rpx;
+}
+.scroll-container .scroll-btns .btns-button.data-v-2e5afb04::after {
+  border-color: transparent;
+}
+.scroll-container .scroll-btns .btns-img.data-v-2e5afb04 {
+  width: 35rpx;
+  height: 33rpx;
+  margin-right: 20rpx;
+}
+.scroll-container.data-v-2e5afb04 {
+  width: 100%;
+  height: 96vh;
+}
+.scroll-container .scroll-tabs.data-v-2e5afb04 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 9;
+}
+.scroll-container .scroll-content.data-v-2e5afb04 {
+  height: 100%;
+}
+.scroll-container .scroll-content .scroll-swiper.data-v-2e5afb04 {
+  width: 100%;
+  height: 100%;
+}
+.scroll-container .scroll-content .scroll-swiper .scroll-views.data-v-2e5afb04 {
+  width: 100%;
+  height: 100%;
+}
+

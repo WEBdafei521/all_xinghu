@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "发布商品",
+  "disableScroll": true,
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-picker": "/uview-ui/components/u-picker/u-picker",
+    "u-radio-group": "/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/uview-ui/components/u-radio/u-radio",
+    "u-toast": "/uview-ui/components/u-toast/u-toast"
+  }
+}

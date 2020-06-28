@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "直播间",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-notice-bar": "/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "foot-more": "/pagesB/components/room/More",
+    "car-list": "/components/room/goods",
+    "show-image": "/components/uni-canvas/uni-canvas"
+  }
+}

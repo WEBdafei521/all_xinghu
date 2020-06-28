@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "生成转播码",
+  "disableScroll": true,
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-message-input": "/uview-ui/components/u-message-input/u-message-input",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

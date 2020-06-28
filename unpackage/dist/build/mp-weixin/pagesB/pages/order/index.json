@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "订单列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "search-input": "/pagesB/components/common/SeachInput",
+    "order-list": "/pagesB/components/order/OrderList"
+  }
+}

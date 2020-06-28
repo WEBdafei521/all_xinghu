@@ -1,0 +1,293 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页oney，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/home/liveHome/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/home/readyLive/readyLive",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/homePage/edit",
+			"style": {
+				"navigationBarTitleText": "编辑信息"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle":"custom",
+				"enablePullDownRefresh":false
+			}
+		},
+		
+		{
+			"path": "pages/square/backVideo/backVideo",
+			"style": {
+				"navigationBarTitleText": "直播回放",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/user/openService/index",
+			"style": {
+				"navigationBarTitleText":"开通特权",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/user/homePage/index",
+			"style": {
+				"navigationBarTitleText": "个人主页",
+				"navigationStyle":"custom"
+			}
+		},
+		
+		{
+			"path": "pages/user/setting/index",
+			"style": {
+				"navigationBarTitleText": "设置中心",
+				"disableScroll":true
+			}
+		},
+		
+		{
+			"path": "pages/user/auth/index",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+		},
+		
+		
+		{
+			"path": "pages/user/returnMoney/index",
+			"style": {
+				"navigationBarTitleText": "申请退款"
+			}
+		},
+		{
+			"path": "pages/user/returnGoods/index",
+			"style": {
+				"navigationBarTitleText": "我要退货"
+			}
+		},
+
+		{
+			"path": "pages/user/orderdetail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+	
+		{
+			"path": "pages/user/order/index",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/replaceVisita/index",
+			"style": {
+				"navigationBarTitleText": "更换主播"
+			}
+		},
+		
+		
+		
+		{
+			"path": "pages/user/address/index",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+				
+			}
+		},
+		{
+			"path": "pages/user/address/updata",
+			"style": {
+				"navigationBarTitleText": "编辑地址",
+				"disableScroll":true
+			}
+		},
+		
+		{
+			"path": "pages/square/index",
+			"style": {
+				"navigationBarTitleText": "广场",
+				"disableScroll": true
+			}
+		},
+		
+		{
+			"path": "pages/VIP/index",
+			"style": {
+				"navigationBarTitleText": "会员"
+			}
+		},
+		{
+			"path": "pages/introduction/index",
+			"style": {
+				"navigationBarTitleText": "攻略"
+			}
+		},
+		{
+			"path": "pages/user/evaluate/evaluate",
+			"style": {
+				"navigationBarTitleText": "发表评价"
+			}
+		}
+	],
+	"subPackages":[
+		{
+			"root":"pagesB",
+			"pages":[
+				{
+					"path":"pages/upload/upload",
+					"style" : {
+						"navigationBarTitleText": "发布商品",
+						"disableScroll":true
+					}
+				},
+				{
+					"path":"pages/control_goods/index",
+					"style" : {"navigationBarTitleText": "商品管理"}
+				},
+				{
+					"path":"pages/upload/upload_rule",
+					"style" : {"navigationBarTitleText": "添加规格"}
+				},
+				{
+					"path":"pages/order/index",
+					"style" : {"navigationBarTitleText": "订单列表","enablePullDownRefresh": true	}
+				},
+				{
+					"path":"pages/order/shipments/index",
+					"style" : {
+						"navigationBarTitleText": "发货",
+						"disableScroll":true
+					}
+				},
+				{
+					"path":"pages/order/shipments/courier",
+					"style" : {
+						"navigationBarTitleText": "选择快递",
+						"disableScroll":true
+					}
+				},
+				{
+					"path":"pages/wallet/index",
+					"style" : {
+						"navigationBarTitleText": "钱包",
+						"disableScroll":true
+					}
+				},
+				{
+					"path":"pages/tradeRecord/index",
+					"style" : {"navigationBarTitleText": "交易列表"}
+				},
+				{
+					"path": "pages/traffic/index",
+					"style": {
+						"navigationBarTitleText": "剩余流量"
+					}
+				},
+				{
+					"path": "pages/traffic/record",
+					"style": {
+						"navigationBarTitleText": "流量记录"
+					}
+				},
+				{
+					"path": "pages/traffic/pay",
+					"style": {
+						"navigationBarTitleText": "流量充值",
+						"disableScroll":true
+					}
+				},
+				{
+					"path": "pages/qrcode/qrcode",
+					"style": {
+						"navigationBarTitleText": "加入转播",
+						"backgroundColor": "#ffffff",
+						"disableScroll":true
+					}
+				},
+				{
+					"path": "pages/genQrcode/genQrcode",
+					"style": {
+						"navigationBarTitleText": "生成转播码",
+					"disableScroll":true
+					}
+				},
+				// {
+				// 	"path": "pages/createLive/created",
+				// 	"style": {
+				// 		"navigationBarTitleText": "创建直播"
+				// 	}
+				// },
+				{
+					"path": "pages/createLive/liveRoom",
+					"style": {
+						"navigationBarTitleText": "直播间",
+						"navigationStyle":"custom"
+					}
+				},
+				{
+            "path" : "pages/createLive/editRoom",
+            "style" : {
+							"navigationBarTitleText": "编辑内容"
+						}
+        },
+				{
+				    "path" : "pages/webView/index",
+				    "style" : {
+							"navigationBarTitleText": ""
+						}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uView",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#ffffff"
+	},
+	"tabBar": {
+	    "color": "#656565",
+	    "selectedColor": "#E2D3A9",
+	    "borderStyle": "black",
+	    "backgroundColor": "#16181C",
+	    "list": [{
+	        "pagePath": "pages/home/index",
+	        "iconPath": "static/index.png",
+	        "selectedIconPath": "static/index_select.png",
+	        "text": "首页"
+	    }, 
+			{
+	        "pagePath": "pages/user/index",
+	        "iconPath": "static/center.png",
+	        "selectedIconPath": "static/center-selected.png",
+	        "text": "我的"
+	    }]
+	}
+}

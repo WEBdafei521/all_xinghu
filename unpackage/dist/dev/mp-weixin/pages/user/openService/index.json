@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "开通特权",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup"
+  }
+}

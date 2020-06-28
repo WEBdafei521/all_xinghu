@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "goods-rule": "/components/goods/GoodsRule",
+    "goods-order": "/components/goods/GoodsOrder"
+  }
+}

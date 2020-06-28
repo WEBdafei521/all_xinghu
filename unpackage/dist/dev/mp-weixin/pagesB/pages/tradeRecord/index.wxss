@@ -1,0 +1,250 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* uni.scss */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 尺寸大小 */
+/* 颜色 */
+/* 设置宽高 */
+/*  flex布局 */
+/* 上1像素边框 */
+/* 下 1像素边框 */
+/* 右 1像素边框 */
+/* 溢出隐藏... */
+/* 上下外边距 */
+/* 重置button样式 */
+/* 底部提交按钮 */
+/* 存在底部提交按钮 */
+/* 定义盒子 */
+.container-box.data-v-44bcf5df {
+  width: 100%;
+  padding: 0 30rpx 20rpx;
+  box-sizing: border-box;
+}
+/* 内容盒子 */
+.content-box.data-v-44bcf5df {
+  padding: 20rpx;
+}
+.record-container.data-v-44bcf5df {
+  width: 100%;
+  background: #f8f8f8;
+}
+.record-container .record-head.data-v-44bcf5df {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 20rpx 30rpx;
+  height: 120rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-bottom: 1rpx solid #eee;
+}
+.record-container .record-head-select.data-v-44bcf5df {
+  background: #fff;
+  padding: 10rpx 27rpx;
+  border-radius: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.record-container .record-head-select .select-text.data-v-44bcf5df {
+  margin-right: 10rpx;
+}
+.record-container .record-head-select .icon-on-active.data-v-44bcf5df {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.record-container .record-head-price.data-v-44bcf5df {
+  height: 70rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  color: #b1b1b1;
+  font-size: 24rpx;
+}
+.record-container .record-content.data-v-44bcf5df {
+  width: 100%;
+  height: 100%;
+  padding-top: 120rpx;
+}
+.record-container .record-content .scroll-view_H.data-v-44bcf5df {
+  width: 100%;
+  height: 100%;
+}
+.record-container .record-content .scroll-view_H .record-li.data-v-44bcf5df {
+  width: 100%;
+  background: #fff;
+  padding: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  position: relative;
+  width: 100%;
+}
+.record-container .record-content .scroll-view_H .record-li.data-v-44bcf5df::before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #eee;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transform: scaleY(0.5);
+          transform: scaleY(0.5);
+}
+.record-container .record-content .scroll-view_H .record-li .li-info.data-v-44bcf5df {
+  font-size: 24rpx;
+  color: #b1b1b1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.record-container .record-content .scroll-view_H .record-li .li-info-img.data-v-44bcf5df {
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.record-container .record-content .scroll-view_H .record-li .li-info .li-info-text.data-v-44bcf5df {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.record-container .record-content .scroll-view_H .record-li .li-info .li-info-text-text.data-v-44bcf5df, .record-container .record-content .scroll-view_H .record-li .li-info .li-info-text-date.data-v-44bcf5df {
+  width: 100%;
+}
+.record-container .record-content .scroll-view_H .record-li .li-info .li-info-text-title.data-v-44bcf5df {
+  max-width: 420px;
+  margin-bottom: 10rpx;
+  color: #333;
+  font-size: 30rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.record-container .record-content .scroll-view_H .record-li .li-price .text_active.data-v-44bcf5df {
+  color: #D7B975;
+}
+.record-container .type-popup.data-v-44bcf5df {
+  width: 100%;
+  background: #fff;
+  padding: 0 30rpx 20rpx;
+  min-height: 480rpx;
+}
+.record-container .type-popup-title.data-v-44bcf5df {
+  width: 100%;
+  text-align: center;
+  padding: 20rpx 0;
+}
+.record-container .type-popup-list.data-v-44bcf5df {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.record-container .type-popup-list .list-li.data-v-44bcf5df {
+  width: 32%;
+  height: 98rpx;
+  font-size: 30rpx;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  background: #eee;
+  border-radius: 16rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.record-container .type-popup-list .list-li.data-v-44bcf5df:nth-child(3n) {
+  margin-right: 0;
+}
+.record-container .type-popup-list .list-li.active.data-v-44bcf5df {
+  background: #D7B975;
+  color: #fff;
+}
+

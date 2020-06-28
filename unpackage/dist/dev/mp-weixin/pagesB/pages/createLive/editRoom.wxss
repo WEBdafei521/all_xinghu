@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* uni.scss */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  width: 100%;
+  background-color: #F8F8F8;
+}
+.edit_v {
+  width: 100%;
+  background-color: white;
+}
+.edit_v .itm {
+  width: 696rpx;
+  height: 70rpx;
+  border-bottom: 1rpx solid #E3E3E3;
+  margin-top: 20rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  line-height: 80rpx;
+}
+.edit_v .itm .title {
+  font-size: 25rpx;
+  font-weight: bold;
+  color: #333333;
+  margin-left: 26rpx;
+}
+.edit_v .itm .input {
+  width: 350rpx;
+  font-size: 25rpx;
+  margin-left: 26rpx;
+}
+.submit {
+  width: 700rpx;
+  height: 85rpx;
+  line-height: 85rpx;
+  background: #d7b975;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: white;
+  margin: 80rpx 30rpx 0 30rpx;
+}
+.l-upload {
+  background-color: #FFFFFF;
+}
+.l-upload-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  background-color: #FFFFFF;
+}
+.l-upload-title-icon {
+  padding: 0 18rpx 0 27rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding-top: 6rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #e93340;
+}
+.l-upload-title-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 79rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.l-upload-main {
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 27rpx 56rpx;
+}
+.l-upload-photo {
+  width: 44rpx;
+  height: 39rpx;
+}
+.l-upload-image-btn {
+  width: 116rpx;
+  height: 116rpx;
+  margin-top: 10rpx;
+  border: 2rpx solid rgba(177, 177, 182, 0.5);
+}
+.l-upload-image {
+  position: relative;
+  width: 116rpx;
+  height: 116rpx;
+  margin: 10rpx 10rpx 0 0;
+}
+.l-upload-image image {
+  width: 123rpx;
+  height: 123rpx;
+}
+.l-upload-photo-text {
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #b1b1b6;
+}
+.l-upload-image-del image {
+  width: 33rpx;
+  height: 33rpx;
+}
+.l-upload-image-del {
+  position: absolute;
+  top: 6rpx;
+  right: 6rpx;
+  z-index: 1;
+}
+.l-upload-image-text {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #fff;
+  width: 123rpx;
+  text-align: center;
+  height: 38rpx;
+  line-height: 38rpx;
+  color: #fff;
+  background: #d7b975;
+  opacity: 0.7;
+}
+.l-flex-col {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background-color: #FFFFFF;
+}
+

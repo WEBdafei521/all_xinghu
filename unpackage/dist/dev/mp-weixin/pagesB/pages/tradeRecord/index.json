@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "交易列表",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-popup": "/uview-ui/components/u-popup/u-popup"
+  }
+}
